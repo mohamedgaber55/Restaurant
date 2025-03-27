@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- start-header -->
+    <header>
+        <div class="container">
+                <div class="logo">
+                    <img src="/imgs/logo.png" alt="">
+                </div>
+            <div class="links">
+                <i class="fas fa-bars toggle" id="toggle"></i>
+                <ul class="links-container">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#review">Review</a></li>
+                        <li><a href="#order">Order</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+                <div class="icons">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+        </div>
+    </header>
+    <!-- end-header -->
+
+    <!-- start-home -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="info">
+                <h1>Fresh, Fast, and Flavorful Food <span>-</span> <span>Just For You</span></h1>
+                <p class="pr-larg">Experience a journey of flavors crafted with passion and the freshest ingredients.
+                    Whether you're here for a quick bite or a full-course meal,
+                    every dish is made to delight your senses and leave you craving more!</p>
+                <p class="pr-small">Experience a journey of flavors crafted with passion and the freshest ingredients!</p>
+                <button class="order"><a href="#about">Discover More</a></button>
+            </div>
+                <img src="./imgs/main_img.png" alt="">
+        </div>
+    </section>
+    <!-- end-home -->
+
+    <!-- start-about -->
+    <section class="about" id="about">
+        <div class="container">
+            <img src="./imgs/Food-Plate.png" alt="">
+            <div class="info">
+                <h3>Discovery</h3>
+                <h2>WHY CHOOSE US <span>?</span></h2>
+                <p><span>"</span>At our restaurant, we believe that food is more than just a meal, it’s an experience
+                    that brings people together. Using fresh ingredients and bold flavors,
+                    we craft each dish with passion and creativity.
+                    Whether you're stopping by for a casual bite or a special occasion,
+                    our warm atmosphere and delicious meals make every visit memorable.<span>"</span></p>
+                    <button><a href="#menu">Discover Meals</a></button>
+            </div>
+        </div>
+    </section>
+    <!-- end-about -->
+
+    <!-- satrt-our-menue -->
+    <section class="our-menu" id="menu">
+        <h1 class="main-title">OUR <span>MENU</span></h1>
+        <div class="container">
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-01.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>pizza</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>20<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-02.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>Biryani</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>30<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-03.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>lasagna</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>35<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-04.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>Hot Dog</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>50<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-05.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>Burger</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>40<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-06.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>Pasta</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>45<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-07.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>Juice</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>20<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-08.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>Juice</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>10<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-09.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>Sandwich</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>25<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-10.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>Spanchi</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>35<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-11.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>Chocolate</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>60<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="./imgs/menu-12.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h2>Ice Cream</h2>
+                    <p>Deliciously crafted for a perfect bite every time!</p>
+                    <h3>15<span>$</span></h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end-our-menue -->
+
+    <!-- start-gallery -->
+    <section class="gallery" id="gallery">
+        <h1 class="main-title">OUR <span>GALLERY</span></h1>
+        <div class="container">
+            <div class="box">
+                    <img src="./imgs/gallary-01.jpg" alt="">
+                <div class="info">
+                    <h2>Special Meal</h2>
+                    <p>Irresistible flavors in every bite, made with passion and care!</p>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="box">
+                    <img src="./imgs/gallary-02.jpg" alt="">
+                <div class="info">
+                    <h2>Special Meal</h2>
+                    <p>Irresistible flavors in every bite, made with passion and care!</p>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="box">
+                    <img src="./imgs/gallary-03.jpg" alt="">
+                <div class="info">
+                    <h2>Special Meal</h2>
+                    <p>Irresistible flavors in every bite, made with passion and care!</p>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="box">
+                    <img src="./imgs/gallary-04.jpg" alt="">
+                <div class="info">
+                    <h2>Special Meal</h2>
+                    <p>Irresistible flavors in every bite, made with passion and care!</p>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="box">
+                    <img src="./imgs/gallary-05.jpg" alt="">
+                <div class="info">
+                    <h2>Special Meal</h2>
+                    <p>Irresistible flavors in every bite, made with passion and care!</p>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="box">
+                    <img src="./imgs/gallary-06.jpg" alt="">
+                <div class="info">
+                    <h2>Special Meal</h2>
+                    <p>Irresistible flavors in every bite, made with passion and care!</p>
+                    <button>See More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end-gallery -->
+
+    <!-- start-cu-reviews -->
+    <section class="cu-reviews" id="review">
+        <h1 class="main-title">CUSTOMER <span>REVIEWS</span></h1>
+        <div class="container">
+            <div class="box">
+                <div class="info">
+                    <div class="image">
+                        <img src="./imgs/customer-01.png" alt="">
+                    </div>
+                    <h2>Bergo</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <p>My experience at this restaurant was absolutely amazing! The food was bursting with flavor,
+                    the atmosphere was warm and inviting,and the service was top-notch.
+                    Every bite was a delight, and I can't wait to come back again!</p>
+            </div>
+            <div class="box">
+                <div class="info">
+                    <div class="image">
+                        <img src="./imgs/customer-02.png" alt="">
+                    </div>
+                    <h2>Bergo</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <p>My experience at this restaurant was absolutely amazing! The food was bursting with flavor,
+                    the atmosphere was warm and inviting,and the service was top-notch.
+                    Every bite was a delight, and I can't wait to come back again!</p>
+            </div>
+            <div class="box">
+                <div class="info">
+                    <div class="image">
+                        <img src="./imgs/customer-03.png" alt="">
+                    </div>
+                    <h2>Bergo</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <p>My experience at this restaurant was absolutely amazing! The food was bursting with flavor,
+                    the atmosphere was warm and inviting,and the service was top-notch.
+                    Every bite was a delight, and I can't wait to come back again!</p>
+            </div>
+            <div class="box">
+                <div class="info">
+                    <div class="image">
+                        <img src="./imgs/customer-04.png" alt="">
+                    </div>
+                    <h2>Bergo</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+                <p>My experience at this restaurant was absolutely amazing! The food was bursting with flavor,
+                    the atmosphere was warm and inviting,and the service was top-notch.
+                    Every bite was a delight, and I can't wait to come back again!</p>
+            </div>
+        </div>
+    </section>
+    <!-- end-cu-reviews -->
+
+    <!-- start-order -->
+    <section class="order-now" id="order">
+        <h1 class="main-title">ORDER <span>NOW</span></h1>
+        <div class="container">
+            <div class="image">
+                <img src="./imgs/order.png" alt="">
+            </div>
+                <form action="" class="form">
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Your Phone">
+                    <input type="text" placeholder="Your email">
+                    <input type="text" placeholder="Your Adress" required>
+                    <input type="text" placeholder="Your Order" required>
+                    <input type="number" placeholder="Order Amount" required>
+                    <input type="submit" value="Order Now" class="the-submit">
+                </form>
+        </div>
+    </section>
+    <!-- end-order -->
+
+    <!-- satrt-team -->
+    <section class="team" id="team">
+        <h1 class="main-title">OUR <span>TEAM</span></h1>
+        <div class="container">
+            <div class="box">
+                <img src="./imgs/chef-01.png" alt="">
+                <div class="info">
+                    <h2>Bergo</h2>
+                    <p>Expertise to evrey dishes and creates dishes with excellence</p>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./imgs/chef-02.png" alt="">
+                <div class="info">
+                    <h2>Bergo</h2>
+                    <p>Expertise to evrey dishes and creates dishes with excellence</p>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./imgs/chef-03.jpg" alt="">
+                <div class="info">
+                    <h2>Bergo</h2>
+                    <p>Expertise to evrey dishes and creates dishes with excellence</p>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./imgs/chef-04.jpg" alt="">
+                <div class="info">
+                    <h2>Bergo</h2>
+                    <p>Expertise to evrey dishes and creates dishes with excellence</p>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end-team -->
+
+    <!-- start-footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="box one">
+                <h1><i class="fas fa-map-marker-alt fa-fw"></i> Location</h1>
+                <ul>
+                    <li>Sweeden</li>
+                    <li>Germany</li>
+                    <li>Hungary</li>
+                    <li>Uruguay</li>
+                    <li>Paraguay</li>
+                </ul>
+            </div>
+            <div class="box two">
+                <h1>Quick Links</h1>
+                <ul>
+                    <li><span><i class="fas fa-angle-double-right fa-2x"></i> Home</span></li>
+                    <li><span><i class="fas fa-angle-double-right fa-2x"></i> About</span></li>
+                    <li><span><i class="fas fa-angle-double-right fa-2x"></i> Menu</span></li>
+                    <li><span><i class="fas fa-angle-double-right fa-2x"></i> Order</span></li>
+                    <li><span><i class="fas fa-angle-double-right fa-2x"></i> Team</span></li>
+                </ul>
+            </div>
+            <div class="box three">
+                <h1><i class="fas fa-phone-volume fa-fw"></i> Contact</h1>
+                <ul>
+                    <li>+94 12 3456 789</li>
+                    <li>+94 25 5568 456</li>
+                    <li>+94 18 4488 367</li>
+                    <li>johndeo123@gmail.com</li>
+                    <li>foodshop123@gmail.com</li>
+                </ul>
+            </div>
+            <div class="box four">
+                <h1>Follow Us</h1>
+                <ul>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <p>Made With Passion By <span>Mohamed Gaber</span></p>
+    </footer>
+    <!-- end-footer -->
+</body>
+</html>
