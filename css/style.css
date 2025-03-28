@@ -674,7 +674,7 @@ header #toggle{
 
 /* satrt-team */
 .team{
-    background-image: url("../imgs/team-back.jpg");
+    background-image: url("/imgs/team-back.jpg");
     background-size: cover;
     background-position: center center;
     padding-top: var(--main-padding-top);
