@@ -777,7 +777,7 @@ footer .container .one li{
     font-size: 20px;
 }
 footer .container .two li{
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid #eee;
     transition: var(--main-transition);
     cursor: pointer;
 }
@@ -819,7 +819,7 @@ footer .container .four .social i:hover{
 }
 footer > p{
     text-align: center;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #eee;
     margin: 10px 0 0;
     padding: 20px;
     font-weight: bold;
