@@ -248,7 +248,7 @@ header #toggle{
         display: none;
     }
     .home .container img {
-        width: 335px;
+        width: 325px;
     }
 }
 @media (max-width : 991px) {
