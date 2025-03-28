@@ -254,7 +254,7 @@ header #toggle{
 @media (max-width : 991px) {
     .home .container {
         flex-direction: column-reverse;
-        padding-top: 70px;
+        padding-top: 60px;
         gap: 10px;
     }
     .home .container img {
