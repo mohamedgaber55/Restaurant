@@ -196,7 +196,7 @@ header #toggle{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .home .container .info {
     max-width: 35%;
