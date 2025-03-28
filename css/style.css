@@ -152,7 +152,7 @@ header #toggle{
         padding: 5px 0;
         width: calc(100% - 15px);
         margin-top: 12px;
-        margin-right: 8px;
+        margin-right: 6px;
         transition: 1s;
     }
     header .container .links-container i{
