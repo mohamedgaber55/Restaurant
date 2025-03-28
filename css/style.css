@@ -293,6 +293,7 @@ header #toggle{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    padding-bottom:      var(--main-padding-bottom);
 }
 .about .container img{
     max-width: 600px;
